@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: linear-gradient(180deg, #e0007899, #21abd0);
+  height: 100vh;
+}
+form{
+  background: #fff;
+  padding-top: 1em;
+  border-radius: 10px;
+  text-align: center;
+  height: 62vh;
+  box-shadow: 9px 9px 37px 11px #625959ba;
+}
+.formulario{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+}
+#titulo{
+  font-size: 47px;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  color: #e0007899;
+}
+input{
+  border: none;
+  border-bottom: 2px solid #ff00a2;
+  margin-bottom: 2rem;
+  width: 30rem;
+  font-size: 18px;
+}
+input:focus {
+    border: none;
+    outline: 0;
+    border-bottom: 2px solid #21abd0;
+}
+.icone{
+  width: 10%;
+  height: 5em;
+  border-radius: 50%;
+  background: linear-gradient(20deg, #ff00a2, #21abd0);
+  text-align: center;
+  margin: 0em auto -2em auto;
+}
+span.material-symbols-outlined.icon {
+    font-size: 61px;
+    color: #fff;
+    margin: 4px auto;
+}
